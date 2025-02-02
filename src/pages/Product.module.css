@@ -1,0 +1,175 @@
+.product {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.aboutSection {
+  width: clamp(80rem, 80%, 90rem);
+  margin: 6rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+  align-items: center;
+  background: linear-gradient(135deg, var(--color-dark--2), var(--color-dark--1));
+  padding: 4rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.aboutContent h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  color: var(--color-light--1);
+}
+
+.aboutContent h2 span {
+  color: var(--main-color); /* Highlight the app name */
+}
+
+.aboutContent p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: var(--color-light--2);
+  line-height: 1.6;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.featureItem {
+  text-align: center;
+  padding: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.featureItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: var(--main-color);
+  margin-bottom: 1rem;
+}
+
+.featureItem h3 {
+  font-size: 1.8rem;
+  color: var(--color-light--1);
+  margin-bottom: 0.5rem;
+}
+
+.featureItem p {
+  font-size: 1.4rem;
+  color: var(--color-light--2);
+}
+
+.ctaButton {
+  background: linear-gradient(135deg, #6e8efb, #4a6cf7);
+  color: white;
+  padding: 1.2rem 2.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: linear-gradient(135deg, #4a6cf7, #6e8efb);
+  transform: scale(1.05);
+}
+
+.aboutImage {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+.product {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.pricingSection {
+  width: clamp(80rem, 80%, 90rem);
+  margin: 6rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+  align-items: center;
+  background: linear-gradient(135deg, var(--color-dark--2), var(--color-dark--1));
+  padding: 4rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.pricingContent h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  color: var(--color-light--1);
+}
+
+.pricingContent h2 span {
+  color: var(--main-color); /* Highlight the price */
+}
+
+.pricingContent p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+  color: var(--color-light--2);
+  line-height: 1.6;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 3rem 0;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  color: var(--color-light--2);
+}
+
+.icon {
+  font-size: 1.8rem;
+  color: var(--main-color);
+}
+
+.ctaButton {
+  background: linear-gradient(135deg, var(--main-color), #4a6cf7);
+  color: white;
+  padding: 1.2rem 2.5rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.ctaButton:hover {
+  background: linear-gradient(135deg, #4a6cf7, var(--main-color));
+  transform: scale(1.05);
+}
+
+.pricingImage {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
